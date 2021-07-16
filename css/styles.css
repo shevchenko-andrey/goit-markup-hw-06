@@ -846,6 +846,9 @@ body {
   object-fit: cover;
   border: none;
 }
+.modal-form-checkbox:focus + .modal-form-checkbox-label::before {
+  border-color: var(--accent-color);
+}
 .modal-form-checkbox {
   position: absolute;
   white-space: nowrap;
